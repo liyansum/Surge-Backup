@@ -1,71 +1,22 @@
-DOMAIN-SUFFIX,apple.com
-## Apple Non-China CDN
-## Trailer
-DOMAIN-SUFFIX,hls.itunes.apple.com
-## Movie Stream
-DOMAIN-SUFFIX,hls-amt.itunes.apple.com
-## iTunes Music Stream
-DOMAIN-SUFFIX,audio-ssl.itunes.apple.com
-DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN,cdn.apple-cloudkit.com
-## Developer
-DOMAIN,devimages-cdn.apple.com
-DOMAIN,devstreaming-cdn.apple.com
-DOMAIN,js-cdn.music.apple.com
-DOMAIN,docs-assets.developer.apple.com
-## Apple TV
-DOMAIN,np-edge.itunes.apple.com
-DOMAIN,play-edge.itunes.apple.com
-DOMAIN-SUFFIX,tv.apple.com
 DOMAIN,tv.applemusic.com
 USER-AGENT,AppleTV*
 USER-AGENT,com.apple.tv*
-DOMAIN,uts-api.itunes.apple.com
-## OCSP
-DOMAIN-SUFFIX,ocsp.apple.com
 USER-AGENT,com.apple.trustd*
-## Apple News
 USER-AGENT,AppleNews*
 DOMAIN-SUFFIX,apple.news
-DOMAIN,news-events.apple.com
-DOMAIN,news-edge.apple.com
 DOMAIN,apple.comscoreresearch.com
-# DOMAIN,gateway.icloud.com
-DOMAIN,gspe1-ssl.ls.apple.com
-DOMAIN,news-assets.apple.com
-DOMAIN,news-client.apple.com
 USER-AGENT,com.apple.news*
-## Apple Proxy
-DOMAIN,developer.apple.com
 DOMAIN-SUFFIX,digicert.com
-DOMAIN,testflight.apple.com
-DOMAIN,sandbox.itunes.apple.com
-# DOMAIN,itunes.apple.com
-# DOMAIN-SUFFIX,apps.apple.com
 DOMAIN-SUFFIX,blobstore.apple.com
 DOMAIN,cvws.icloud-content.com
-## FitnessPlus
-DOMAIN,hls-svod.itunes.apple.com
-## iCloudPrivateRelay
-DOMAIN,mask-api.fe.apple-dns.net
-DOMAIN,mask-api.icloud.com
-DOMAIN,mask-h2.icloud.com
-DOMAIN,mask-t.apple-dns.net
-DOMAIN,mask.apple-dns.net
-DOMAIN,mask.icloud.com
-## Other
 DOMAIN-SUFFIX,apple-dns.net
-#Apple 直连
 USER-AGENT,*com.apple.mobileme.fmip1
-# Weather
 USER-AGENT,*WeatherFoundation*
 DOMAIN,weather-data.apple.com
-# Map
 USER-AGENT,com.apple.Maps
 USER-AGENT,*com.apple.Maps?
 USER-AGENT,Maps*
-DOMAIN,gs-loc-cn.apple.com
-## FindMy
 USER-AGENT,FindMyFriends*
 USER-AGENT,FindMyiPhone*
 USER-AGENT,*FindMyiPhone?
@@ -74,11 +25,6 @@ USER-AGENT,FMFD*
 USER-AGENT,fmflocatord*
 USER-AGENT,geod*
 USER-AGENT,locationd*
-DOMAIN,fmfmobile.icloud.com
-DOMAIN,fmipmobile.icloud.com
-DOMAIN,statici.icloud.com
-
-# Apple List
 IP-CIDR,17.0.0.0/8,no-resolve
 IP-CIDR,63.92.224.0/19,no-resolve
 IP-CIDR,65.199.22.0/23,no-resolve
@@ -111,11 +57,6 @@ DOMAIN-SUFFIX,apple.com.akadns.net
 DOMAIN-SUFFIX,icloud.com.akadns.net
 DOMAIN-SUFFIX,ess.apple.com
 DOMAIN,guzzoni.apple.com
-# AppleMusic
-DOMAIN-SUFFIX,music.apple.com
-DOMAIN-SUFFIX,aod.itunes.apple.com
-DOMAIN-SUFFIX,audio.itunes.apple.com
-DOMAIN-SUFFIX,play.itunes.apple.com
 DOMAIN-SUFFIX,radio-activity.itunes.apple.com
 DOMAIN-SUFFIX,radio-services.itunes.apple.com
 DOMAIN-SUFFIX,radio.itunes.apple.com
@@ -126,10 +67,6 @@ DOMAIN-SUFFIX,mvod.itunes.apple.com
 DOMAIN-SUFFIX,streamingaudio.itunes.apple.com
 # DOMAIN-SUFFIX,blobstore.apple.com
 USER-AGENT,*Music?
-# AppStore
-DOMAIN,apps.apple.com
-DOMAIN,itunes.apple.com
-
 # iMessage
 DOMAIN-SUFFIX,ess.apple.com
 # Apple Music
