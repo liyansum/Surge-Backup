@@ -30,7 +30,7 @@ usage_guide() {
 debug=0
 show_ip=1
 show_ipip=1
-test_io=1
+test_io=0
 test_iops=0
 full_ip=0
 
@@ -85,7 +85,7 @@ mkdir -p $HOME/.abench
 [[ $debug != 1 ]] && clear
 ##############################################################################################################################
 echo -e "${bold}正在获取 check-sys 与 abench ...${normal}"
-[[ $EUID = 0 ]] && wget -qO /usr/local/bin/abench https://github.com/Aniverse/A/raw/i/a && chmod 755 /usr/local/bin/abench
+[[ $EUID = 0 ]] && wget -qO /usr/local/bin/abench https://raw.githubusercontent.com/liyansum/Surge-Backup/main/abench && chmod 755 /usr/local/bin/abench
 source <(wget -qO- https://github.com/Aniverse/inexistence/raw/master/00.Installation/check-sys)
 ##############################################################################################################################
 check_tcp_acc
