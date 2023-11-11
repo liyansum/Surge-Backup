@@ -26,7 +26,7 @@
   panel["icon-color"] = shifts[col];
   panel.content = `CPU:    ${cpuUsage}        |  MEM:    ${memUsage}\n` +
     `Recv: ${bytesToSize(outTraffic)}  |  Sent: ${bytesToSize(inTraffic)}\n` +
-    `Uptime: ${formatUptime(jsonData.uptime)}\n`;
+    `Uptime: ${formatUptime(jsonData.uptime)}`;
 
   $done(panel);
 })().catch((e) => {
